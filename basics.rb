@@ -22,7 +22,7 @@ post '/secret' do
 end
 
 get '/decrypt/secret' do
-	
+	@nig = params["nig"]
 	erb :decryptsecret
 #	params[:secret].reverse
 end
