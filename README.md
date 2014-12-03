@@ -2,8 +2,8 @@ Just a simple Message encryptor app. Basically it displays 2 links on the home p
 
 
 <p><b>Gems Used</b> </p>
-<p> Sinatra - Alternative to Rails framework. Figured it'd be easiter to learn the major basics first.
-	Shotgun - Allows for the app to be reloaded everytime the page is refreshed</p>
+<p> Sinatra - Alternative to Rails framework. Figured it'd be easiter to learn the major basics first.<p>
+	<p>Shotgun - Allows for the app to be reloaded everytime the page is refreshed</p>
 
 <p> <b>Current Bugs<b></p>
 <p>Unable to get Decrypt Button to grab :secret key</p>
