@@ -8,3 +8,5 @@ Just a simple Message encryptor app. Basically it displays 2 links on the home p
 <p> <b>Current Bugs- 12.3.14<b></p>
 <p>Unable to get Decrypt Button to grab :secret key</p>
 
+<p> <b> To Do<b> <p>
+	Create Capy Bara Tests to confirm behavior.
