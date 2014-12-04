@@ -15,7 +15,7 @@ get '/secret' do
 end
 
 post '/secret' do
-	@secret=params["secret"]
+	@secret = params["secret"]
 
 	erb :decrypt
 
@@ -24,7 +24,6 @@ end
 get '/decrypt/secret' do
 	@nig = params["nig"]
 	erb :decryptsecret
-#	params[:secret].reverse
 end
 
 

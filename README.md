@@ -6,7 +6,9 @@ Just a simple Message encryptor app. Basically it displays 2 links on the home p
 	<p>Shotgun - Allows for the app to be reloaded everytime the page is refreshed</p>
 
 <p> <b>Current Bugs- 12.3.14<b></p>
-<p><del>Unable to get Decrypt Button to grab :secret key</del> -<b>Squashed.</b></p>
+<p><del>Unable to get Decrypt Button to grab :secret key</del> -<b>Squashed by</b></p>
 
 <p> <b> To Do<b> <p>
-	Create Capy Bara Tests to confirm behavior.
+<p>	Create Capy Bara Tests to confirm behavior:
+	<p> About Me page passes.
+		Secret form accepts input, posts correctly. </p>
