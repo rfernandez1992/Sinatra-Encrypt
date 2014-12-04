@@ -6,7 +6,7 @@ get '/' do
 end
 
 get '/aboutme' do
-	"Just a place holder til I add an aboutme.erb"
+	erb :aboutme
 end
 
 
