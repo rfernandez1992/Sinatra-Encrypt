@@ -1,38 +1,30 @@
-require 'rubygems'
-require 'sinatra'
+require 'sinatra/base'
 
-get '/' do
-	erb :home
+class App1 < Sinatra::Base
+	get '/' do
+		erb :home
+	end
+
+	get '/aboutme' do
+		erb :aboutme
+	end
+
+	get '/secret' do
+		erb :secret
+	end
+
+	post '/secret' do
+		@secret = params["secret"]
+
+		erb :decrypt
+
+	end
+
+	get '/decrypt/secret' do
+		@nig = params["nig"]
+		erb :decryptsecret
+	end
 end
-
-get '/aboutme' do
-	erb :aboutme
-end
-
-
-get '/secret' do
-	erb :secret
-end
-
-post '/secret' do
-	@secret = params["secret"]
-
-	erb :decrypt
-
-end
-
-get '/decrypt/secret' do
-	@nig = params["nig"]
-	erb :decryptsecret
-end
-
-
-
-
-
-
-
-
 
 
 
